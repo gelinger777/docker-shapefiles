@@ -8,7 +8,7 @@ It downloads shapefiles for OSM-Bright into `/usr/share/shapefiles-src` for usag
 
 Build the image:
 
-    $ sudo docker build openfirmware/shapefiles github.com/openfirmware/docker-shapefiles.git
+    $ sudo docker build openfirmware/shapefiles github.com/gelinger777/docker-shapefiles.git
 
 Run it as a data-only container:
 
