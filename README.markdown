@@ -12,6 +12,6 @@ Build the image:
 
 Run it as a data-only container:
 
-    $ sudo docker run --name shapefiles openfirmware/shapefiles
+    $ sudo docker run --name shapefiles gelinger777/shapefiles
 
 Now a container is available named `shapefiles` that can be accessed by other containers that are started with the `--volumes-from` option. This will mount `/usr/share/shapefiles-src` from this container at `/usr/share/shapefiles-src` in your other container, allowing you to extract and process the zip files.
